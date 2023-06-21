@@ -1,6 +1,3 @@
-"""Sadaf Khan, LING570, HW10, 12/06/2021. Creates feature vectors for the training and test data. Runs mallet thereafter
-to create a MaxEnt model using said feature vectors."""
-
 import os
 from collections import defaultdict
 import sys
