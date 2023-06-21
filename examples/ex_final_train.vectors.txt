@@ -1,0 +1,100 @@
+1-0-Pierre NNP prevW=BOS 1 prev2W=BOS 1 next2W=comma 1 prevT=BOS 1 prevTwoTags=BOS+BOS 1 containUC 1 pref=P 1 pref=Pi 1 suf=e 1 suf=re 1
+1-1-Vinken NNP prev2W=BOS 1 nextW=comma 1 prevT=NNP 1 prevTwoTags=BOS+NNP 1 containUC 1 pref=V 1 pref=Vi 1 suf=n 1 suf=en 1
+1-2-comma comma curW=comma 1 next2W=years 1 prevT=NNP 1 prevTwoTags=NNP+NNP 1
+1-3-61 CD prevW=comma 1 nextW=years 1 next2W=old 1 prevT=comma 1 prevTwoTags=NNP+comma 1 containNum 1 pref=6 1 suf=1 1
+1-4-years NNS curW=years 1 prev2W=comma 1 nextW=old 1 next2W=comma 1 prevT=CD 1 prevTwoTags=comma+CD 1
+1-5-old JJ curW=old 1 prevW=years 1 nextW=comma 1 next2W=will 1 prevT=NNS 1 prevTwoTags=CD+NNS 1
+1-6-comma comma curW=comma 1 prevW=old 1 prev2W=years 1 nextW=will 1 prevT=JJ 1 prevTwoTags=NNS+JJ 1
+1-7-will MD curW=will 1 prevW=comma 1 prev2W=old 1 next2W=the 1 prevT=comma 1 prevTwoTags=JJ+comma 1
+1-8-join VB prevW=will 1 prev2W=comma 1 nextW=the 1 next2W=board 1 prevT=MD 1 prevTwoTags=comma+MD 1 pref=j 1 pref=jo 1 suf=n 1 suf=in 1
+1-9-the DT curW=the 1 prev2W=will 1 nextW=board 1 next2W=as 1 prevT=VB 1 prevTwoTags=MD+VB 1
+1-10-board NN curW=board 1 prevW=the 1 nextW=as 1 next2W=a 1 prevT=DT 1 prevTwoTags=VB+DT 1
+1-11-as IN curW=as 1 prevW=board 1 prev2W=the 1 nextW=a 1 prevT=NN 1 prevTwoTags=DT+NN 1
+1-12-a DT curW=a 1 prevW=as 1 prev2W=board 1 next2W=director 1 prevT=IN 1 prevTwoTags=NN+IN 1
+1-13-nonexecutive JJ curW=nonexecutive 1 prevW=a 1 prev2W=as 1 nextW=director 1 prevT=DT 1 prevTwoTags=IN+DT 1
+1-14-director NN curW=director 1 prev2W=a 1 prevT=JJ 1 prevTwoTags=DT+JJ 1
+1-15-Nov. NNP curW=Nov. 1 prevW=director 1 next2W=. 1 prevT=NN 1 prevTwoTags=JJ+NN 1
+1-16-29 CD prev2W=director 1 nextW=. 1 next2W=EOS 1 prevT=NNP 1 prevTwoTags=NN+NNP 1 containNum 1 pref=2 1 suf=9 1
+1-17-. . curW=. 1 nextW=EOS 1 next2W=EOS 1 prevT=CD 1 prevTwoTags=NNP+CD 1
+2-0-Mr. NNP curW=Mr. 1 prevW=BOS 1 prev2W=BOS 1 next2W=is 1 prevT=BOS 1 prevTwoTags=BOS+BOS 1
+2-1-Vinken NNP prevW=Mr. 1 prev2W=BOS 1 nextW=is 1 next2W=chairman 1 prevT=NNP 1 prevTwoTags=BOS+NNP 1 containUC 1 pref=V 1 pref=Vi 1 suf=n 1 suf=en 1
+2-2-is VBZ curW=is 1 prev2W=Mr. 1 nextW=chairman 1 next2W=of 1 prevT=NNP 1 prevTwoTags=NNP+NNP 1
+2-3-chairman NN curW=chairman 1 prevW=is 1 nextW=of 1 prevT=VBZ 1 prevTwoTags=NNP+VBZ 1
+2-4-of IN curW=of 1 prevW=chairman 1 prev2W=is 1 prevT=NN 1 prevTwoTags=VBZ+NN 1
+2-5-Elsevier NNP prevW=of 1 prev2W=chairman 1 next2W=comma 1 prevT=IN 1 prevTwoTags=NN+IN 1 containUC 1 pref=E 1 suf=r 1 suf=er 1 suf=ier 1
+2-6-N.V. NNP prev2W=of 1 nextW=comma 1 next2W=the 1 prevT=NNP 1 prevTwoTags=IN+NNP 1 containUC 1 pref=N 1 pref=N. 1 suf=. 1
+2-7-comma comma curW=comma 1 nextW=the 1 prevT=NNP 1 prevTwoTags=NNP+NNP 1
+2-8-the DT curW=the 1 prevW=comma 1 prevT=comma 1 prevTwoTags=NNP+comma 1
+2-9-Dutch NNP prevW=the 1 prev2W=comma 1 next2W=group 1 prevT=DT 1 prevTwoTags=comma+DT 1 containUC 1 pref=D 1 suf=h 1 suf=ch 1
+2-10-publishing VBG curW=publishing 1 prev2W=the 1 nextW=group 1 next2W=. 1 prevT=NNP 1 prevTwoTags=DT+NNP 1
+2-11-group NN curW=group 1 nextW=. 1 next2W=EOS 1 prevT=VBG 1
+2-12-. . curW=. 1 prevW=group 1 nextW=EOS 1 next2W=EOS 1 prevT=NN 1 prevTwoTags=VBG+NN 1
+3-0-Rudolph NNP prevW=BOS 1 prev2W=BOS 1 next2W=comma 1 prevT=BOS 1 prevTwoTags=BOS+BOS 1 containUC 1 pref=R 1 pref=Ru 1 suf=h 1 suf=ph 1
+3-1-Agnew NNP prev2W=BOS 1 nextW=comma 1 prevT=NNP 1 prevTwoTags=BOS+NNP 1 containUC 1 pref=A 1 suf=w 1 suf=ew 1
+3-2-comma comma curW=comma 1 next2W=years 1 prevT=NNP 1 prevTwoTags=NNP+NNP 1
+3-3-55 CD curW=55 1 prevW=comma 1 nextW=years 1 next2W=old 1 prevT=comma 1 prevTwoTags=NNP+comma 1
+3-4-years NNS curW=years 1 prev2W=comma 1 nextW=old 1 next2W=and 1 prevT=CD 1 prevTwoTags=comma+CD 1
+3-5-old JJ curW=old 1 prevW=years 1 nextW=and 1 prevT=NNS 1 prevTwoTags=CD+NNS 1
+3-6-and CC curW=and 1 prevW=old 1 prev2W=years 1 nextW=former 1 next2W=chairman 1 prevT=JJ 1 prevTwoTags=NNS+JJ 1
+3-7-former JJ curW=former 1 prevW=and 1 prev2W=old 1 nextW=chairman 1 next2W=of 1 prevT=CC 1 prevTwoTags=JJ+CC 1
+3-8-chairman NN curW=chairman 1 prevW=former 1 prev2W=and 1 nextW=of 1 prevT=JJ 1 prevTwoTags=CC+JJ 1
+3-9-of IN curW=of 1 prevW=chairman 1 prev2W=former 1 prevT=NN 1 prevTwoTags=JJ+NN 1
+3-10-Consolidated NNP prevW=of 1 prev2W=chairman 1 prevT=IN 1 prevTwoTags=NN+IN 1 containUC 1 pref=C 1 pref=Co 1 pref=Con 1 suf=d 1 suf=ed 1 suf=ted 1 suf=ated 1
+3-11-Gold NNP prev2W=of 1 prevT=NNP 1 prevTwoTags=IN+NNP 1 containUC 1 pref=G 1 pref=Go 1 suf=d 1 suf=ld 1 suf=old 1
+3-12-Fields NNP next2W=comma 1 prevT=NNP 1 prevTwoTags=NNP+NNP 1 containUC 1 pref=F 1 suf=s 1 suf=ds 1 suf=lds 1
+3-13-PLC NNP nextW=comma 1 next2W=was 1 prevT=NNP 1 prevTwoTags=NNP+NNP 1 containUC 1 pref=P 1 suf=C 1
+3-14-comma comma curW=comma 1 nextW=was 1 next2W=named 1 prevT=NNP 1 prevTwoTags=NNP+NNP 1
+3-15-was VBD curW=was 1 prevW=comma 1 nextW=named 1 next2W=a 1 prevT=comma 1 prevTwoTags=NNP+comma 1
+3-16-named VBN curW=named 1 prevW=was 1 prev2W=comma 1 nextW=a 1 prevT=VBD 1 prevTwoTags=comma+VBD 1
+3-17-a DT curW=a 1 prevW=named 1 prev2W=was 1 next2W=director 1 prevT=VBN 1 prevTwoTags=VBD+VBN 1
+3-18-nonexecutive JJ curW=nonexecutive 1 prevW=a 1 prev2W=named 1 nextW=director 1 next2W=of 1 prevT=DT 1 prevTwoTags=VBN+DT 1
+3-19-director NN curW=director 1 prev2W=a 1 nextW=of 1 next2W=this 1 prevT=JJ 1 prevTwoTags=DT+JJ 1
+3-20-of IN curW=of 1 prevW=director 1 nextW=this 1 prevT=NN 1 prevTwoTags=JJ+NN 1
+3-21-this DT curW=this 1 prevW=of 1 prev2W=director 1 prevT=IN 1 prevTwoTags=NN+IN 1
+3-22-British JJ curW=British 1 prevW=this 1 prev2W=of 1 prevT=DT 1 prevTwoTags=IN+DT 1
+3-23-industrial JJ curW=industrial 1 prev2W=this 1 next2W=. 1 prevT=JJ 1 prevTwoTags=DT+JJ 1
+3-24-conglomerate NN nextW=. 1 next2W=EOS 1 prevT=JJ 1 prevTwoTags=JJ+JJ 1 pref=c 1 pref=co 1 pref=con 1 suf=e 1 suf=te 1 suf=ate 1 suf=rate 1
+3-25-. . curW=. 1 nextW=EOS 1 next2W=EOS 1 prevT=NN 1 prevTwoTags=JJ+NN 1
+4-0-A DT curW=A 1 prevW=BOS 1 prev2W=BOS 1 nextW=form 1 next2W=of 1 prevT=BOS 1 prevTwoTags=BOS+BOS 1
+4-1-form NN curW=form 1 prevW=A 1 prev2W=BOS 1 nextW=of 1 next2W=asbestos 1 prevT=DT 1 prevTwoTags=BOS+DT 1
+4-2-of IN curW=of 1 prevW=form 1 prev2W=A 1 nextW=asbestos 1 prevT=NN 1 prevTwoTags=DT+NN 1
+4-3-asbestos NN curW=asbestos 1 prevW=of 1 prev2W=form 1 next2W=used 1 prevT=IN 1 prevTwoTags=NN+IN 1
+4-4-once RB curW=once 1 prevW=asbestos 1 prev2W=of 1 nextW=used 1 next2W=to 1 prevT=NN 1 prevTwoTags=IN+NN 1
+4-5-used VBN curW=used 1 prev2W=asbestos 1 nextW=to 1 next2W=make 1 prevT=RB 1 prevTwoTags=NN+RB 1
+4-6-to TO curW=to 1 prevW=used 1 nextW=make 1 prevT=VBN 1 prevTwoTags=RB+VBN 1
+4-7-make VB curW=make 1 prevW=to 1 prev2W=used 1 prevT=TO 1 prevTwoTags=VBN+TO 1
+4-8-Kent NNP curW=Kent 1 prevW=make 1 prev2W=to 1 prevT=VB 1 prevTwoTags=TO+VB 1
+4-9-cigarette NN prev2W=make 1 next2W=has 1 prevT=NNP 1 prevTwoTags=VB+NNP 1 pref=c 1 pref=ci 1 suf=e 1 suf=te 1
+4-10-filters NNS curW=filters 1 nextW=has 1 prevT=NN 1 prevTwoTags=NNP+NN 1
+4-11-has VBZ curW=has 1 next2W=a 1 prevT=NNS 1 prevTwoTags=NN+NNS 1
+4-12-caused VBN curW=caused 1 prevW=has 1 nextW=a 1 next2W=high 1 prevT=VBZ 1 prevTwoTags=NNS+VBZ 1
+4-13-a DT curW=a 1 prev2W=has 1 nextW=high 1 prevT=VBN 1 prevTwoTags=VBZ+VBN 1
+4-14-high JJ curW=high 1 prevW=a 1 next2W=of 1 prevT=DT 1 prevTwoTags=VBN+DT 1
+4-15-percentage NN curW=percentage 1 prevW=high 1 prev2W=a 1 nextW=of 1 prevT=JJ 1 prevTwoTags=DT+JJ 1
+4-16-of IN curW=of 1 prev2W=high 1 prevT=NN 1 prevTwoTags=JJ+NN 1
+4-17-cancer NN curW=cancer 1 prevW=of 1 next2W=among 1 prevT=IN 1 prevTwoTags=NN+IN 1
+4-18-deaths NNS curW=deaths 1 prev2W=of 1 nextW=among 1 next2W=a 1 prevT=NN 1 prevTwoTags=IN+NN 1
+4-19-among IN curW=among 1 nextW=a 1 next2W=group 1 prevT=NNS 1 prevTwoTags=NN+NNS 1
+4-20-a DT curW=a 1 prevW=among 1 nextW=group 1 next2W=of 1 prevT=IN 1 prevTwoTags=NNS+IN 1
+4-21-group NN curW=group 1 prevW=a 1 prev2W=among 1 nextW=of 1 next2W=workers 1 prevT=DT 1 prevTwoTags=IN+DT 1
+4-22-of IN curW=of 1 prevW=group 1 prev2W=a 1 nextW=workers 1 prevT=NN 1 prevTwoTags=DT+NN 1
+4-23-workers NNS curW=workers 1 prevW=of 1 prev2W=group 1 next2W=to 1 prevT=IN 1 prevTwoTags=NN+IN 1
+4-24-exposed VBN prevW=workers 1 prev2W=of 1 nextW=to 1 next2W=it 1 prevT=NNS 1 prevTwoTags=IN+NNS 1 pref=e 1 pref=ex 1 pref=exp 1 suf=d 1 suf=ed 1 suf=sed 1
+4-25-to TO curW=to 1 prev2W=workers 1 nextW=it 1 next2W=more 1 prevT=VBN 1 prevTwoTags=NNS+VBN 1
+4-26-it PRP curW=it 1 prevW=to 1 nextW=more 1 next2W=than 1 prevT=TO 1 prevTwoTags=VBN+TO 1
+4-27-more RBR curW=more 1 prevW=it 1 prev2W=to 1 nextW=than 1 next2W=30 1 prevT=PRP 1
+4-28-than IN curW=than 1 prevW=more 1 prev2W=it 1 nextW=30 1 next2W=years 1 prevT=RBR 1
+4-29-30 CD curW=30 1 prevW=than 1 prev2W=more 1 nextW=years 1 next2W=ago 1 prevT=IN 1 prevTwoTags=RBR+IN 1
+4-30-years NNS curW=years 1 prevW=30 1 prev2W=than 1 nextW=ago 1 next2W=comma 1 prevT=CD 1 prevTwoTags=IN+CD 1
+4-31-ago IN curW=ago 1 prevW=years 1 prev2W=30 1 nextW=comma 1 prevT=NNS 1 prevTwoTags=CD+NNS 1
+4-32-comma comma curW=comma 1 prevW=ago 1 prev2W=years 1 next2W=reported 1 prevT=IN 1 prevTwoTags=NNS+IN 1
+4-33-researchers NNS curW=researchers 1 prevW=comma 1 prev2W=ago 1 nextW=reported 1 next2W=. 1 prevT=comma 1
+4-34-reported VBD curW=reported 1 prev2W=comma 1 nextW=. 1 next2W=EOS 1 prevT=NNS 1 prevTwoTags=comma+NNS 1
+4-35-. . curW=. 1 prevW=reported 1 nextW=EOS 1 next2W=EOS 1 prevT=VBD 1 prevTwoTags=NNS+VBD 1
+5-0-The DT curW=The 1 prevW=BOS 1 prev2W=BOS 1 nextW=asbestos 1 prevT=BOS 1 prevTwoTags=BOS+BOS 1
+5-1-asbestos NN curW=asbestos 1 prevW=The 1 prev2W=BOS 1 next2W=comma 1 prevT=DT 1 prevTwoTags=BOS+DT 1
+5-2-fiber NN prevW=asbestos 1 prev2W=The 1 nextW=comma 1 prevT=NN 1 prevTwoTags=DT+NN 1 pref=f 1 pref=fi 1 suf=r 1 suf=er 1 suf=ber 1
+5-3-comma comma curW=comma 1 prev2W=asbestos 1 next2W=comma 1 prevT=NN 1 prevTwoTags=NN+NN 1
+5-4-crocidolite NN curW=crocidolite 1 prevW=comma 1 nextW=comma 1 next2W=is 1 prevT=comma 1 prevTwoTags=NN+comma 1
+5-5-comma comma curW=comma 1 prev2W=comma 1 nextW=is 1 prevT=NN 1 prevTwoTags=comma+NN 1
+5-6-is VBZ curW=is 1 prevW=comma 1 prevT=comma 1 prevTwoTags=NN+comma 1
