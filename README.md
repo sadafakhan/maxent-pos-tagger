@@ -1,6 +1,5 @@
 # maxent-pos-tagger
-Implements a maximum entropy tagger. Creates feature vectors for the training and test data. Runs mallet thereafter
-to create a MaxEnt model using said feature vectors.
+```maxent-pos-tagger``` implements a maximum entropy tagger. It creates feature vectors for the training and test data, and then runs mallet to create a MaxEnt model using said feature vectors. You must have mallet installed in order to run this program. 
 
 Args: 
 * ```train_file```: has the format (e.g., test.word pos): w1/t1 w2/t2 ... wn/tn
@@ -24,7 +23,7 @@ Returns:
 
 To run: 
 ```
-maxent_tagger.sh train_file test_file rare_thres feat_thres output_dir
+src/maxent_tagger.sh input/train_file input/test_file rare_thres feat_thres output
 ```
 
 The output folder contains the outputs when running wsj_sec0.word_pos as train_file and test.word_pos as test_file. The directory name includes the rare_thres and feat_thres respectively, in that order. 
